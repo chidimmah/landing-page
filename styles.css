@@ -51,3 +51,34 @@
     width :500px;;
     height: auto;
 }
+.top-area #info {
+    color: black;
+    text-align: center;
+    font-size:50px;
+    font-weight:bold;
+    margin-top: 50px;
+}
+.top-area {
+    background-color: #fff;
+    height: 500px;
+    width: auto;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    margin: 0 10px; /* Adjust the margin to control space between items */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Space between the image and the text */
+}
+a {
+    text-decoration: none;}
